@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  min-height: 1250px;
+  background: linear-gradient(135deg, #e3fcff, #ffe9f8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+  color: #1c1c1d;
+  padding: 20px;
+}
+
+
+.invitation{
+    width: min(975px, 100%);
+    background-color: aliceblue;
+    border-radius: 15px;
+    border-color: #1c1c1d;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(3, 0, 14, 0.301);
+    border-top: 10px solid #bcc7f5;;
+    position: relative;
+}
+
+
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #d5dbf59a;
+    border-radius: 10px;
+}
+
+
+.recipient{
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+.subtext{
+    text-align: center;
+    font-family: cursive;
+    color: rgb(3, 10, 15);
+    font-weight: bold;
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+
+h1{
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.signature{
+    text-align: right;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.block {
+  display: flex;
+  border-radius: 14px;
+  margin: 14px 0;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.08);
+  min-height: 250px; 
+}
+
+
+.block .text {
+  flex: 2; 
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.block .image {
+  flex: 1; 
+  background-size: cover;
+  background-position: center;
+}
+
+
+.frieren .image {
+  background-image: url("Frieren.webp");
+  background-size: 25%;
+  background-repeat: no-repeat;
+}
+
+.fern .image {
+  background-image: url("Fern.webp");
+   background-size: 25%;
+  background-repeat: no-repeat;
+}
+
+.stark .image {
+  background-image: url("Stark.webp");
+  background-size: 25%;
+  background-repeat: no-repeat;
+}
+
+
+.block h2 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: #ad1457;
+}
+
+.block p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
