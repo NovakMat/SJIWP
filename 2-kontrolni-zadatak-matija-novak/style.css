@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #fff1d6, #ffd6c9);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #dd6743b6;
+  padding: 32px;
+}
+
+
+.glavni-okvir{
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 34px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px #ffffffea solid;
+    box-shadow: 0 12px 35px rgba(231, 15, 15, 0.463) ;
+}
+
+
+.podnaslov{
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    color: #6b2a1a;
+}
+
+
+h1{
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 10px;
+letter-spacing: 5px;
+text-size-adjust: 34px;
+color: #b91c1c;
+}
+
+.signature{
+    text-align: right;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.blok {
+  border-radius: 6px;
+  padding: 20px;    
+  margin-top: 18px;
+  margin-bottom: 18px;
+  border:1px solid #8a1c1cb7;
+  box-shadow: #4a4a4a73;
+  
+}
+
+
+.blok .text {
+  flex: 2; 
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.blok .image {
+  flex: 1; 
+  background-size: cover;
+  background-position: center;
+}
+
+
+.slika{
+    font-size: 15px;
+    background-image:url("pozadina.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    border: 1px solid #d7daff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.overlay{
+    background-color: rgba(255, 221, 0, 0.6);
+    padding: 18px;
+    border-radius: 6px;
+    border: 1px solid #c90707db;
+}
+
+.jednobojno {
+    background-color: #fff7ed;
+}
+
+.gradijent{
+    font-size: 15px;
+    background:linear-gradient(90deg, #fb923c, #fde047);
+}
+
+
+.blok h2 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #8a1c1c;
+}
+
+.blok p {
+  margin: 0;
+  line-height: 1.75;
+  color: #3a1b0f;
+}
+
+.naglasak{
+    font-weight: 800;
+    color: #b91c1c;
+    background-color: rgba(185, 28, 28, 0.14);
+    padding: 5px;
+    border-radius: 10px;
+}
