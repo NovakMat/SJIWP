@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 10px;
+    background: linear-gradient(135deg, #d6f5ff, #fbcdfc);
+}
+
+.okvir{
+    margin: 0 auto;
+    padding: 15px;
+    background-color: cornsilk;
+    border: 1px;
+    border-radius: 5px;
+    align-items: center;
+    max-width: 750px;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.blok{
+    background-color: rgb(238, 235, 248);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #9293c8;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.boja:hover{
+    background-color: rgb(235, 246, 243);
+}
+
+.opacity:hover{
+    opacity: 0.5;
+}
+
+.pomak:hover{
+    transform: translateY(8px);
+}
+
+.scale:hover{
+    transform: scale(1.10);
+}
+
+.kombinacija:hover{
+    transform: translateY(-5px) scale(1.05);
+    background-color: rgb(244, 230, 187);
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(174, 253, 216, 0.818);
+    font-size: 15px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(194, 61, 61);
+    transform: scale(1.01);
+}
