@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(250deg, #af9b84, #f8d4bc);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 750px;
+    max-height: 900px;
+    text-align: center;
+    border: 5px black;
+    border-radius: 10px;
+}
+
+
+h1 {
+    text-shadow: 2px 2px 5px black;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(139, 139, 139);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+}
+
+
+th {
+    background: linear-gradient(250deg, #242c33, #1a2633);
+    padding: 15px;
+    font-size: 18px;
+}
+
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+
+tr:hover {
+    background-color: rgba(255,255,255,0.1);
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+
+.najdraza {
+    background-color: rgba(255,215,0,0.3);
+    border: 2px solid gold;
+}
+
+
+
+.icon{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+td:hover {
+    background-color: rgba(255,255,255,0.1);
+    transform: scale(1.01);
+    transition: 0.3s;
+}
