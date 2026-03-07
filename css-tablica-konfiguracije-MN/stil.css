@@ -1,0 +1,56 @@
+body{
+margin:0;
+padding:25px;
+font-family:Arial, Helvetica, sans-serif;
+background: linear-gradient(135deg, #7dadbb, #3b6e7e);
+color:rgb(255, 255, 255);
+}
+
+.main{
+max-width:1250px;
+margin:0 auto;
+background-color:#041118;
+padding:25px;
+border-radius:10px;
+box-shadow:1px 1px 25px rgba(0,0,0,0.6);
+}
+
+h1{
+text-align:center;
+margin-bottom:25px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th, td{
+padding:10px;
+border:1px solid #444;
+}
+
+th{
+background-color:#333;
+}
+
+tr:nth-child(even){
+background-color:#2a2a2a;
+}
+
+tr:hover{
+background-color:#444;
+transform:scale(1.05);
+transition:0.1s;
+}
+
+.recommended{
+background-color:#3a2a00;
+font-weight:bold;
+}
+
+.price{
+text-align:right;
+font-weight:bold;
+color:#ffd700;
+}
