@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    background: linear-gradient(135deg, #dbe5eb, #a9b8c4);
+    font-family: Georgia, serif;
+    color: black;
+}
+
+
+
+.header{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.header h1{
+    margin: 0;
+    font-size: 42px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+button{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+
+    padding: 10px 20px;
+    color: white;
+    background-color: #70e672;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+
+
+.logo-div{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo{
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+nav{
+    background-color: #475569;
+    border-radius: 10px;
+    padding: 15px;
+    width: 90%;
+    margin: auto;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    display: inline-block;
+
+    min-width: 175px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #4b0082;
+    font-weight: bold;
+
+    background-color: #7588a1;
+
+    border: 2px solid rgba(19, 27, 44, 0.73);
+    border-radius: 6px;
+
+    padding: 10px 15px;
+    margin: 5px;
+
+    transition: 0.3s;
+}
+
+nav a:hover{
+    background-color: #0ea5e9;
+    transform: scale(1.05);
+}
+
+
+
+.main{
+    width: 85%;
+    margin: 40px auto;
+
+    background-color: rgba(224, 240, 254, 0.9);
+
+    border: 3px solid black;
+    border-radius: 15px;
+
+    padding: 35px;
+
+    line-height: 1.6;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+
+    font-size: 28px;
+
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+p{
+    font-size: 17px;
+}
+
+ol{
+    font-size: 17px;
+}
+
+
+
+.main img{
+    display: block;
+
+    width: 70%;
+    max-width: 500px;
+
+    margin: 30px auto;
+
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+
+
+.primjeri{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.kartica{
+    display: inline-block;
+
+    width: 220px;
+
+    background-color: #e2e8f0;
+
+    border: 3px solid black;
+    border-radius: 15px;
+
+    padding: 15px;
+    margin: 10px;
+
+    vertical-align: top;
+
+    transition: 0.3s;
+}
+
+.kartica:hover{
+    transform: scale(1.05);
+}
+
+.kartica img{
+    width: 180px;
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+    border: 2px solid gray;
+}
+
+.kartica p{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+footer{
+    width: 85%;
+
+    margin: 30px auto;
+
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: #475569; color: white;
+
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 375px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .header{
+        padding: 15px;
+    }
+
+    h1, .header h1{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    button{
+        position: static;
+        display: block;
+        margin: 15px auto;
+    }
+
+    nav{
+        width: 95%;
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    nav a{
+        display: block;
+        width: 100%;
+        min-width: 0;
+        margin: 8px auto;
+        padding: 10px;
+    }
+
+    .main{
+        width: 95%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    h3{
+        font-size: 19px;
+    }
+
+    p, ol{
+        font-size: 16px;
+    }
+
+    .main img{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .kartica{
+        display: block;
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .kartica img{
+        width: 100%;
+        height: auto;
+    }
+}
